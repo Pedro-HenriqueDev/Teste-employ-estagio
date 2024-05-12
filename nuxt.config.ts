@@ -2,6 +2,9 @@ import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
     css: ["~/assets/css/main.css"],
+    nitro: {
+        preset: "cloudflare-pages",
+    },
     devtools: { enabled: true },
     build: {
         transpile: ["vuetify"],
