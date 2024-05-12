@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Mont";
+    src: url("../fonts/Mont/Mont-Regular.otf");
+    src: url("../fonts/Mont/Mont-Bold.otf") format("otf"), url("../fonts/Mont/Mont-SemiBold.otf") format("otf"),
+        url("../fonts/Mont/Mont-Book.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("ttf"), url("../fonts/Roboto/Roboto-Medium.ttf") format("ttf"),
+        url("../fonts/Roboto/Roboto-Black.ttf") format("ttf");
+}
+
+body {
+    font-family: "Mont";
+}
